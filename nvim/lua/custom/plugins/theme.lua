@@ -17,6 +17,7 @@ return {
           gitsigns = true,
           nvimtree = true,
           treesitter = true,
+          render_markdown = true,
           mini = {
             enabled = true,
             indentscope_color = '',
