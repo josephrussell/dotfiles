@@ -41,7 +41,7 @@ return {
             overlay0 = '#7f8192',
             surface2 = '#9ea1b2',
             surface1 = '#afb2c3',
-            surface0 = '#c0c3d4',
+            surface0 = '#eef0f5', -- Lighter, more subtle gray
             pink = '#722ed1', -- Replaced pink with a dark purple
             mauve = '#5b21b6', -- Darker purple for existing mauve
           },
@@ -60,6 +60,11 @@ return {
               ['@variable'] = { fg = colors.text },
               ['@parameter'] = { fg = colors.text },
               ['@field'] = { fg = colors.text },
+              -- Markdown specific improvements
+              ['@markup.raw.markdown_inline'] = { fg = colors.mauve, bg = colors.surface0 },
+              ['@markup.raw.block.markdown'] = { fg = colors.mauve },
+              ['RenderMarkdownCode'] = { bg = colors.surface0 },
+              ['RenderMarkdownCodeInline'] = { fg = colors.mauve, bg = colors.surface0 },
             }
           end,
         },
