@@ -9,6 +9,15 @@ This repo helps save personalized installation and configurations for applicatio
 - installation: https://neovim.io/doc/install/
 - repo: https://github.com/neovim/neovim
 - docs: https://neovim.io/doc/user/
+- dotfiles: [./nvim](nvim/)
+
+## starship
+- name: starship
+- purpose: shell prompt
+- installation: `curl -sS https://starship.rs/install.sh | sh`
+- repo: https://github.com/starship/starship
+- dotfiles [./nvim](starship/)
+
 
 ## docker
 - name: docker
@@ -21,17 +30,23 @@ This repo helps save personalized installation and configurations for applicatio
 - installation: `brew install colima`
 - repo: https://github.com/abiosoft/colima
 
+## gh
+- name: gh
+- purpose: github cli
+- installation: `brew install gh`
+- repo: https://cli.github.com/
+
 ## ripgrep
 - name: ripgrep
 - purpose: regex search
 - installation: `brew install ripgrep`
 - repo: https://github.com/BurntSushi/ripgrep
 
-## starship
-- name: starship
-- purpose: shell prompt
-- installation: `curl -sS https://starship.rs/install.sh | sh`
-- repo: https://github.com/starship/starship
+## uv
+- name: uv
+- purpose: python package and project manager
+- installation `curl -LsSf https://astral.sh/uv/install.sh | sh`
+- docs: `https://docs.astral.sh/uv/reference/`
 
 ## direnv
 - name: direnv
@@ -54,10 +69,20 @@ This repo helps save personalized installation and configurations for applicatio
 ## nvm
 - name: nvm
 - purpose: node version manager
-- installation: https://github.com/nvm-sh/nvm
+- installation: `https://github.com/nvm-sh/nvm`
 - repo: https://github.com/nvm-sh/nvm
 
-## fonts
-- name: fonts
+## nerd fonts
+- name: nerd fonts
 - purpose: display
-- installation: `brew tap homebrew/cask-fonts`
+- installation: `brew install --cask font-jetbrains-mono-nerd-font`
+
+## rust
+- name: rust
+- purpose: rust language
+- installation: `https://rust-lang.org/tools/install/`
+
+## go
+- name: go
+- purpose: go language
+- installation: `https://go.dev/doc/install`
