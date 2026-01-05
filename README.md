@@ -17,6 +17,13 @@ This repo helps save personalized installation and configurations for applicatio
 - docs: https://neovim.io/doc/user/
 - dotfiles: [nvim](nvim/)
 
+## opencode
+- name: opencode
+- purpose: coding agent
+- installation: `curl -fsSL https://opencode.ai/install | bash`
+- repo: https://github.com/anomalyco/opencode
+- docs: https://opencode.ai/docs
+
 ## starship
 - name: starship
 - purpose: shell prompt
