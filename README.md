@@ -3,21 +3,26 @@ This repo helps save personalized installation and configurations for applicatio
 
 # Applications
 
+## ghostty
+- name: ghostty
+- purpose: terminal emulator
+- installation: https://ghostty.org/download
+- repo: https://github.com/ghostty-org/ghostty
+
 ## neovim
 - name: neovim
 - purpose: editor
 - installation: https://neovim.io/doc/install/
 - repo: https://github.com/neovim/neovim
 - docs: https://neovim.io/doc/user/
-- dotfiles: [./nvim](nvim/)
+- dotfiles: [nvim](nvim/)
 
 ## starship
 - name: starship
 - purpose: shell prompt
 - installation: `curl -sS https://starship.rs/install.sh | sh`
 - repo: https://github.com/starship/starship
-- dotfiles [./nvim](starship/)
-
+- dotfiles [starship](starship/)
 
 ## docker
 - name: docker
@@ -74,7 +79,7 @@ This repo helps save personalized installation and configurations for applicatio
 
 ## nerd fonts
 - name: nerd fonts
-- purpose: display
+- purpose: terminal display fonts
 - installation: `brew install --cask font-jetbrains-mono-nerd-font`
 
 ## rust
