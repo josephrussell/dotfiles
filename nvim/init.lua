@@ -363,7 +363,7 @@ require('lazy').setup({
         end,
       })
 
-      Change diagnostic symbols in the sign column (gutter)
+      -- Change diagnostic symbols in the sign column (gutter)
       if vim.g.have_nerd_font then
         local signs = { ERROR = '', WARN = '', INFO = '', HINT = '' }
         local diagnostic_signs = {}
