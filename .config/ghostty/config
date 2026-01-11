@@ -1,0 +1,7 @@
+#theme = Alabaster
+theme = Catppuccin Latte
+font-family = JetBrainsMonoNL Nerd Font Mono
+# macos-titlebar-style = tabs
+confirm-close-surface = false
+shell-integration = zsh
+window-save-state = always

@@ -15,7 +15,7 @@ This repo helps save personalized installation and configurations for applicatio
 - installation: https://neovim.io/doc/install/
 - repo: https://github.com/neovim/neovim
 - docs: https://neovim.io/doc/user/
-- dotfiles: [nvim](nvim/)
+- dotfiles: [config/nvim]
 
 ## opencode
 - name: opencode
@@ -23,13 +23,14 @@ This repo helps save personalized installation and configurations for applicatio
 - installation: `curl -fsSL https://opencode.ai/install | bash`
 - repo: https://github.com/anomalyco/opencode
 - docs: https://opencode.ai/docs
+- dotfiles: [config/opencode]
 
 ## starship
 - name: starship
 - purpose: shell prompt
 - installation: `curl -sS https://starship.rs/install.sh | sh`
 - repo: https://github.com/starship/starship
-- dotfiles [starship](starship/)
+- dotfiles [config/starship.toml]
 
 ## docker
 - name: docker
@@ -98,3 +99,9 @@ This repo helps save personalized installation and configurations for applicatio
 - name: go
 - purpose: go language
 - installation: `https://go.dev/doc/install`
+
+# Agents
+
+# Rules for agents
+* Do not run shell commands unless asked
+* Each application configuration should be in its own folder using its appropriate folder name based on convention.
