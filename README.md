@@ -1,5 +1,7 @@
 # Purpose
-This repo helps save personalized installation and configurations for applications.
+This repo helps save personalized installation and configurations for my local environment. In addition to getting more organized, I'm curious to see how well coding agents can help enhance my configuration.
+
+I decided to use neovim as my main editor in 2025. With the trend of coding agents working well with unix, bash, markdown I want to further embrace the cli tools on my system.
 
 # Applications
 
@@ -8,6 +10,8 @@ This repo helps save personalized installation and configurations for applicatio
 - purpose: terminal emulator
 - installation: https://ghostty.org/download
 - repo: https://github.com/ghostty-org/ghostty
+- docs: https://ghostty.org/docs
+- dotfiles: [.config/ghostty](.confg/ghostty/config)
 
 ## neovim
 - name: neovim
@@ -15,7 +19,7 @@ This repo helps save personalized installation and configurations for applicatio
 - installation: https://neovim.io/doc/install/
 - repo: https://github.com/neovim/neovim
 - docs: https://neovim.io/doc/user/
-- dotfiles: [config/nvim]
+- dotfiles: [.config/nvim](.config/nvim/)
 
 ## opencode
 - name: opencode
@@ -23,14 +27,15 @@ This repo helps save personalized installation and configurations for applicatio
 - installation: `curl -fsSL https://opencode.ai/install | bash`
 - repo: https://github.com/anomalyco/opencode
 - docs: https://opencode.ai/docs
-- dotfiles: [config/opencode]
+- dotfiles: [.config/opencode/opencode.json](.config/opencode/opencode.json)
 
 ## starship
 - name: starship
 - purpose: shell prompt
 - installation: `curl -sS https://starship.rs/install.sh | sh`
 - repo: https://github.com/starship/starship
-- dotfiles [config/starship.toml]
+- docs: https://starship.rs/config/
+- dotfiles [.config/starship.toml](.config/starship.toml)
 
 ## docker
 - name: docker
