@@ -56,6 +56,7 @@ return {
               -- Muted but visible line numbers
               LineNr = { fg = colors.overlay2 },
               CursorLineNr = { fg = colors.lavender, style = { 'bold' } },
+              CursorLine = { bg = '#e8f5e9' },
               -- Treesitter high contrast
               ['@variable'] = { fg = colors.text },
               ['@parameter'] = { fg = colors.text },
