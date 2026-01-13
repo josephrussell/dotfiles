@@ -1,7 +1,5 @@
 # Purpose
-This repo helps save personalized installation and configurations for my local environment. In addition to getting more organized, I'm curious to see how well coding agents can help enhance my configuration.
-
-I decided to use neovim as my main editor in 2025. With the trend of coding agents working well with unix, bash, markdown I want to further embrace the cli tools on my system.
+This repo helps save personalized installation and configurations for my local environment.
 
 # Applications
 
@@ -11,7 +9,7 @@ I decided to use neovim as my main editor in 2025. With the trend of coding agen
 - installation: https://ghostty.org/download
 - repo: https://github.com/ghostty-org/ghostty
 - docs: https://ghostty.org/docs
-- dotfiles: [.config/ghostty](.confg/ghostty/config)
+- dotfiles: [.config/ghostty/config](.config/ghostty/config)
 
 ## neovim
 - name: neovim
